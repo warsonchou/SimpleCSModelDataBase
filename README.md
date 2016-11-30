@@ -28,5 +28,3 @@ P    // 输出有多少个建立的客户端
 服务端和客户端的数据交互：
 1.使用的是socket通讯，参考这里（http://www.linuxhowtos.org/C_C++/socket.htm），服务端使用到的函数有<sys/socket.h>里面的 socket()，bind()，listen()，accept()，这里使用的是长轮询的方法接受客户端的请求，
 2.客户单使用的也是socket通讯，参考这里（http://www.linuxhowtos.org/C_C++/socket.htm），使用到的是<sys/socket.h>里面的socket()：创建socket的，connect()：建立socket连接，read()和write()：进行数据读写到socket里面去。
-
-总结：里面的东西都听说，而且之前也了解过其原理，但是都没有实战经验，实现起来有点困难，因为接触各方面的知识比较多。
